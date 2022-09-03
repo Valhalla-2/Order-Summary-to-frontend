@@ -115,12 +115,24 @@ a {
   margin-top: 3%;
 }
 
-/* ACTIVE STATES */
-.payment-btn:active, .cancel-btn:active {
+/* HOVER STATES */
+.payment-btn:hover, .cancel-btn:hover {
   cursor: pointer;
 }
-.payment-btn:active {
+
+.payment-btn:hover {
   background-color: #766CF1;
+}
+
+/* FOOTER SECTION */
+.attribution {
+  font-size: 11px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /* FOR MOBILE DEVICES */
@@ -128,7 +140,6 @@ a {
   body {
     background-image: url(images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
-    
   }
 
   #order-summary-container {
