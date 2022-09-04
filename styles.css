@@ -62,6 +62,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: center;
   padding: 7%;
   margin: 5% 0;
   border-radius: 1rem;
@@ -70,6 +71,7 @@ body {
 
 .pricing::before {
   content: url(images/icon-music.svg);
+  margin-right:3%;
 }
 
 .price-tag {
@@ -77,7 +79,7 @@ body {
 }
 
 .plans-prices {
-  margin: 0 5%;
+  margin: 0 5% 0 1%;
 }
 
 .change-plan {
